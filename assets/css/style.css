@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 200px auto;
+  border: 5px solid #202020;
+}
+
+.coca-cola {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 8px 0;
+  transition: margin-left 3s;
+}
+
+.container:hover .coca-cola {
+  margin-left: 750px;
+}
